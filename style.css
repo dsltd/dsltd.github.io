@@ -1,0 +1,199 @@
+
+
+/* logo font is Anton*/
+/* Text Font is Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap');
+/* logo font */
+
+
+body{
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.logo{
+  /* font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: bolder; */
+
+  width: 200px;
+  height: 100px;
+  background-image: url('./logo/dolphinnnn2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.phone_number{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: gray;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#menu1{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+
+}
+
+
+#option1{
+  width: 23px;
+  height: 23px;
+  background-image: url('./icons/options.png');
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+
+
+
+#intro1{
+  width:100%;
+  height: 700px;
+  background-image: url('./images/image1.jpg');
+  background-position: center ;
+  background-attachment: fixed;
+  z-index: 9;
+}
+
+#intro2{
+  width:100%;
+  height: 700px;
+  background-image: url('./images/contact.jpg');
+  background-position: center ;
+  background-attachment: fixed;
+  z-index: 9;
+}
+
+#intro3{
+  width:100%;
+  height: 700px;
+  background-image: url('./images/services.jpg');
+  background-position: center ;
+  background-attachment: fixed;
+  z-index: 9;
+}
+
+
+#intro4{
+  width:100%;
+  height: 700px;
+  background-image: url('./images/gallery.jpg');
+  background-position: center ;
+  background-attachment: fixed;
+  z-index: 9;
+}
+
+
+#intro5{
+  width:100%;
+  height: 700px;
+  background-image: url('./images/info.jpg');
+  background-position: center ;
+  background-attachment: fixed;
+  z-index: 9;
+}
+
+
+
+.intro_text{
+  font-family: 'Poppins', sans-serif;
+  margin: 50px;
+}
+
+
+
+.gallery_image{
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 500px;
+  background-color: teal;
+  background-size: cover;
+}
+
+
+
+#footerr{
+  padding: 50px;
+  background-color: #075887;
+}
+
+
+#footerr ul{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  list-style-type: none;
+}
+
+
+#footerr ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.5;
+  margin-left: 5px;
+  transition: .4s;
+}
+
+
+
+
+
+
+/* Extra */
+#options_popup{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  margin: auto;
+  padding: 50px;
+  background-color: #075887;
+  z-index: 100;
+  color: white;
+  display: none;
+  font-family: Poppins;
+
+  animation-name: slideIn ;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+
+}
+
+@keyframes slideIn{
+  0%{margin-left: -1000px}
+}
+
+#options_popup li{
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+#options_popup li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.5;
+  margin-left: 5px;
+  transition: .4s;
+}
+
+
+
+
+#close_icon{
+  width: 40px;
+  height: 40px;
+  background-image: url('./icons/close.png');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
