@@ -1,2 +1,92 @@
-hello world
-nusret
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Painting Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Your Painting Company</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Professional Painting Services</h2>
+        <p>We bring color to your world.</p>
+        <a href="#contact" class="btn">Get a Free Quote</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a professional painting company offering high-quality services for residential and commercial spaces.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Interior Painting</h3>
+                <p>Expert interior painting with attention to detail and high-quality finishes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Exterior Painting</h3>
+                <p>Durable and weather-resistant exterior painting services.</p>
+            </div>
+            <div class="service-item">
+                <h3>Commercial Painting</h3>
+                <p>Professional painting solutions for commercial properties.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Our Work</h2>
+        <div class="portfolio-gallery">
+            <img src="portfolio1.jpg" alt="Residential Project">
+            <img src="portfolio2.jpg" alt="Commercial Project">
+            <img src="portfolio3.jpg" alt="Interior Project">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Your Painting Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
